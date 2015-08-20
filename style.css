@@ -1,0 +1,23 @@
+html, body {
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+ 	cursor:none;
+}
+
+#pellet {
+	position: absolute;
+	background-color: #AA6666;
+	width: 16px;
+	height: 16px;
+	border-radius: 8px;
+	top: 0px;
+	left: 0px;
+}
+
+#pacman {
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		transform: translate(100%, 100%);
+}
